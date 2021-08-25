@@ -1,0 +1,186 @@
+
+
+.main-header {
+  font-family: Helvetica;
+  display: flex;
+  background-color: teal; 
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.logo {
+  padding: 0 0 0 100px; 
+  font-size: 24px; 
+}
+
+.middle-section {
+  display: flex; 
+}
+
+.introduction {
+  font-family: Helvetica;
+  display: flex; 
+  text-align: center; 
+  letter-spacing: 3px;
+  background-color: gray; 
+  font-size: 24px;
+  padding: 25px 0 10px 200px; 
+  border-top: 25px solid cyan; 
+  border-left: 80px solid cyan; 
+  border-right: 10px solid cyan; 
+}
+
+.content {
+  display: flex;
+  background-color: purple; 
+  color: white; 
+}
+
+.people-img {
+  border: solid 8px white; 
+  width: 900px; 
+  height: 300px;
+  padding: 0 0 0 0;  
+}
+
+
+.container {
+  font-family: Helvetica;
+  display: flex; 
+}
+
+h4 { 
+  font-family: Helvetica; 
+  font-size: 24px; 
+  color: white;  
+  padding: 0 0 20px 80px;
+}
+
+.pagelinks {
+  font-family: Arial;
+  font-size: 20px; 
+  color: white;  
+  padding: 40px 60px 80px 650px; 
+} 
+
+h1 {
+  font-family: Arial; 
+  font-size: 28px;
+  color: white;
+}
+
+.first-space {
+  padding: 100px 0 100px 120px; 
+  text-align: left; 
+  
+}
+
+.second-space {
+  border-left: 5px solid black; 
+  padding: 100px 0 100px 120px; 
+
+}
+
+h5 {
+  font-family: Arial; 
+  font-size: 18px; 
+  color: blue; 
+}
+
+h6 {
+  font-family: Arial;
+  font-size: 14px;
+  color: black; 
+}
+
+.first-block {
+  text-align: center;
+  padding: 12px 8px 0 35px; 
+}
+
+.question {
+  padding: 0 0 0 100px; 
+}
+
+.colorful-stick-figures {
+  height: 200px;
+  width: 400px; 
+}
+
+.second-block {
+  text-align: center;  
+  padding: 20px 8px 0 8px; 
+}
+
+.bell {
+  height: 190px;
+  width: 400px; 
+}
+
+.third-block {
+  text-align: center; 
+  padding: 20px 8px 0 8px; 
+}
+
+.thumbs {
+  height: 200px;
+  width: 380px;
+}
+
+.fourth-block {
+  text-align: center; 
+  padding: 30px 35px 0 8px; 
+}
+
+.newspaper-img {
+  height: 180px; 
+  width: 380px;
+}
+
+.bottom {
+  border-top: solid 20px grey; 
+  background-color: grey; 
+}
+
+
+@media only screen and (max-width: 1600px) {
+  .container {
+    display: block; 
+  }
+
+  .middle-section {
+    display: block;
+  }
+
+  .pagelinks {
+    padding: 5% 5% 5% 20%;
+    text-align: center;
+  }
+
+  .introduction {
+    padding: 5% 5% 5% 5%;
+    border-top: 25px solid cyan;
+    border-left: 25px solid cyan;
+    border-right: 25px solid cyan;
+  }
+
+  .people-img {
+    padding: 2% 2% 2% 2%;
+  }
+
+  .first-space {
+    padding: 10% 10% 10% 10%;
+    text-align: center;
+  }
+
+  .second-space {
+    padding: 10% 10% 10% 10%;
+    text-align: center;
+  }
+
+  h5 {
+    padding: 0 0 0 25%;
+  }
+
+
